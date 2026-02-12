@@ -16,3 +16,9 @@ resources from traffic spikes.
 
 ## Performance
 Designed for low-latency overhead, adding sub-millisecond delay to the request pipeline.
+
+
+## Day 2: Advanced Data Structures - Trie (Prefix Tree)
+- **Concept:** Implemented a Prefix Tree to optimize search-ahead functionality.
+- **Focus:** Practiced recursive logic and memory-efficient node mapping.
+- **Application:** Used in low-latency systems like autocomplete engines and IP routing tables.
