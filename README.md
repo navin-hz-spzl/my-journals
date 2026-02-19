@@ -19,15 +19,20 @@ Designed for low-latency overhead, adding sub-millisecond delay to the request p
 
 
 ## Day 2: Advanced Data Structures - Trie (Prefix Tree)
-- **Concept:** Implemented a Prefix Tree to optimize search-ahead functionality.
+- **Concept:** A Prefix Tree to optimize search-ahead functionality.
 - **Focus:** Practiced recursive logic and memory-efficient node mapping.
 - **Application:** Used in low-latency systems like autocomplete engines and IP routing tables.
 
 ## Day 3: Secure Token Registry (Concurrent Trie)
-- **Concept:** Engineered a high-concurrency Trie for sensitive token prefix validation. 
+- **Concept:** A high-concurrency Trie for sensitive token prefix validation. 
 - **Focus:** Optimized for **Enterprise Banking API protocols (SAML/OAuth)** by ensuring thread-safe lookups without global locks.
 - **Concurrency:** Utilized `ConcurrentHashMap` for non-blocking child node allocation.
 - **Application:** Logic to validate token types before authorization.
 
+## Day 4: Reactive Event Bridge (Spring WebFlux & Kafka)
+- **Concept:** A fully non-blocking data pipeline to ingest high-volume event streams.
+- **Focus:** Optimized for Reactive Systems by bridging the gap between HTTP entry points (WebFlux) and distributed message brokers (Kafka).
+- **Concurrency:** Utilized flatMap and Mono.fromFuture to handle hand-offs without thread blocking, ensuring high throughput under load.
+- **Application:** Real-time ingestion of telemetry or audit logs into an event-driven architecture.
 
 
