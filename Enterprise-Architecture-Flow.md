@@ -1,4 +1,4 @@
-Day 5: Enterprise Component Interaction & Request Lifecycle
+### Day 5: Enterprise Component Interaction & Request Lifecycle
 Concept: Analyzed and documented the end-to-end lifecycle of a web request within a decoupled Enterprise Architecture.
 
 Focus: System Modularity—breaking down how a request moves from the Client Browser through security filters, controllers, and business orchestrators.
